@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Awesome Resume</string>
+    <string name="firstcourse"><b>BA Psychology - UPV </b> (2014 - 2019) - <i> Not Completed</i></string>
+    <string name="second_course"><b>BS Computer Engineering - WIT</b> (2020-2024) - <i>Completed</i></string>
+    <string name="experience"><b>Experience</b></string>
+    <string name="skills"><b>Skills</b></string>
+    <string name="objective"><b>Objective</b></string>
+    <string name="integrated_paperless_ngx_with_portainer_for_sois">• Integrated Paperless-ngx with portainer for SOIS</string>
+    <string name="education"><b>Education</b></string>
+    <string name="motivated_professional_seeking_a_challenging_position_where_i_can_apply_my_technical_knowledge_gain_practical_experience_and_contribute_to_the_development_of_efficient_and_effective_software_systems_eager_to_engage_with_and_learn_from_experienced_engineers_and_technical_experts_to_enhance_my_software_development_and_computer_hardware_networking_skills_committed_to_continuous_learning_and_growth_aspiring_to_become_a_seasoned_professional_equipped_with_necessary_and_advanced_skills">Motivated professional seeking a challenging position where I can apply my technical knowledge, gain practical experience, and contribute to the development of efficient and effective software systems. Eager to engage with and learn from experienced engineers and technical experts to enhance my software development and computer hardware networking skills. Committed to continuous learning and growth, aspiring to become a seasoned professional equipped with necessary and advanced skills.</string>
+</resources>

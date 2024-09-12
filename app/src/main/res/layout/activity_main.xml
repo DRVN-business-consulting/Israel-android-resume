@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Image Section-->
+        <ImageView
+            android:src="@drawable/image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+
+        <!-- Header Section -->
+        <TextView
+            android:text="Darrel Israel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:paddingBottom="8dp"
+            android:gravity="center" />
+
+        <!--Address Section-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="16dp">
+
+            <!-- Icon/Image -->
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/address"
+            android:contentDescription="Address Icon"
+            android:layout_marginEnd="8dp"/>
+
+            <!-- Text -->
+            <TextView
+                android:text="Chuu chuu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <!-- Email -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp">
+
+            <!-- Icon/Image -->
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="Email Icon"
+                android:src="@drawable/ic_email" />
+
+            <!-- Text -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="israeldarrel@f04c.dev"
+                android:layout_marginEnd="16dp"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="Globe Icon"
+                android:src="@drawable/globe" />
+
+            <!-- Text -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="f04c.dev"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+
+
+
+        <!-- Phone Number -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="16dp">
+
+            <!-- Icon/Image -->
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_contactno"
+                android:contentDescription="Address Icon"
+                android:layout_marginEnd="8dp"/>
+
+            <!-- Text -->
+            <TextView
+                android:text="+639777777777"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+
+
+
+
+
+        <!-- Objective Section -->
+        <CheckBox
+            android:id="@+id/objectiveCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="@string/objective" />
+
+        <TextView
+            android:id="@+id/objectiveDetails"
+            android:text="@string/motivated_professional_seeking_a_challenging_position_where_i_can_apply_my_technical_knowledge_gain_practical_experience_and_contribute_to_the_development_of_efficient_and_effective_software_systems_eager_to_engage_with_and_learn_from_experienced_engineers_and_technical_experts_to_enhance_my_software_development_and_computer_hardware_networking_skills_committed_to_continuous_learning_and_growth_aspiring_to_become_a_seasoned_professional_equipped_with_necessary_and_advanced_skills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textSize="16sp" />
+
+        <!-- Experience Section -->
+        <CheckBox
+            android:id="@+id/experienceCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="@string/experience" />
+
+        <TextView
+            android:id="@+id/experienceDetails"
+            android:text="@string/integrated_paperless_ngx_with_portainer_for_sois"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:textSize="16sp" />
+
+        <!-- Education Section -->
+        <CheckBox
+            android:id="@+id/educationCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="@string/education" />
+
+        <TextView
+            android:id="@+id/firstCourse"
+            android:text="@string/firstcourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/secondCourse"
+            android:text="@string/second_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textSize="16sp" />
+
+        <!-- Skills Section -->
+        <CheckBox
+            android:id="@+id/skillsCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="@string/skills" />
+
+        <!-- Skill 1: Git -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/gitText"
+                android:text="• Git"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="16dp"
+                android:textSize="16sp" />
+
+            <SeekBar
+                android:id="@+id/gitSeekBar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="20dp"
+                android:progress="90"
+                android:max="100" />
+        </LinearLayout>
+
+        <!-- Skill 2: HTML -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/htmlText"
+                android:text="• HTML"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="16dp"
+                android:textSize="16sp" />
+
+            <SeekBar
+                android:id="@+id/htmlSeekBar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="20dp"
+                android:progress="90"
+                android:max="100" />
+        </LinearLayout>
+
+        <!-- Skill 2: MySQL -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/mySQLText"
+                android:text="• MySQL"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="16dp"
+                android:textSize="16sp" />
+
+            <SeekBar
+                android:clickable="false"
+                android:id="@+id/mysqlSeekBar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="20dp"
+                android:progress="80"
+                android:max="100" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
